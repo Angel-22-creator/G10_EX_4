@@ -1,0 +1,109 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.center {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.team {
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+.team-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.box img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.box h3 {
+    margin: 10px 0 5px;
+}
+
+.box h5 {
+    color: #666;
+    margin: 0;
+}
+
+.icons a {
+    margin: 0 5px;
+    color: #333;
+    text-decoration: none;
+}
+
+.icons i {
+    font-size: 20px;
+}
+
+.contact {
+    background-color: #ffffff;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+			 .form-section {
+					 margin: 20px;
+			 }
+			 .form-section form {
+					 margin-bottom: 20px;
+			 }
+
+			

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive team section</title>
+<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+	<section class="team">
+		<div class="center">
+			<h1>Welcome to Our Team</h1>
+		</div>
+
+		<div class="team-content">
+			<div class="box">
+				<img src="01.jpg">
+				<h3>Angel Marianne Manalo</h3>
+				<h5>LEADER</h5>
+				<div class="icons">
+					<a href="https://www.facebook.com/yanie.lopecillo?mibextid=ZbWKwL" target="_blank"><i class="ri-facebook-box-fill"></i></a>
+					<a href="https://www.instagram.com/ange_ee22?igsh=MWprczIydnNub292OA==" target="_blank"><i class="ri-instagram-fill"></i></a>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="02.jpg">
+				<h3>Ricardo Comaling</h3>
+				<h5>DEVELOPER</h5>
+				<div class="icons">
+					<a href="https://www.facebook.com/ricardo.comaling.92?mibextid=ZbWKwL" target="_blank"><i class="ri-facebook-box-fill"></i></a>
+					<a href="https://www.instagram.com/ricardomercado123?igsh=MjhtbmVnYnl6ZGlw" target="_blank"><i class="ri-instagram-fill"></i></a>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="03.jpg">
+				<h3>Crisanto Samaniego</h3>
+				<h5>DESIGNER</h5>
+				<div class="icons">
+					<a href="https://www.facebook.com/Otnasirc018" target="_blank"><i class="ri-facebook-box-fill"></i></a>
+					<a href="https://www.instagram.com/tantooo18?igsh=MTZ3YjI0cGhzZGJ1aA==" target="_blank"><i class="ri-instagram-fill"></i></a>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="04.jpg">
+				<h3>Noli Dimaano</h3>
+				<h5>DESIGNER</h5>
+				<div class="icons">
+					<a href="https://www.facebook.com/profile.php?id=61553028303515&mibextid=LQQJ4d" target="_blank"><i class="ri-facebook-box-fill"></i></a>
+					<a href="https://www.instagram.com/apolloqt12?igsh=M29sbGFzMGlrZDFt&utm_source=qr" target="_blank"><i class="ri-instagram-fill"></i></a>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="05.jpg">
+				<h3>Ernest Edrian Ortega</h3>
+				<h5>DESIGNER</h5>
+				<div class="icons">
+					<a href="https://www.facebook.com/ernest.ortega.18?mibextid=ZbWKwL" target="_blank"><i class="ri-facebook-box-fill"></i></a>
+					<a href="https://www.instagram.com/ernest.ortega.18?igsh=MTE5M2FjOTcxYjJoMw==" target="_blank"><i class="ri-instagram-fill"></i></a>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<section class="contact">
+			 <div class="center">
+					 <h2>Contact Us</h2>
+			 </div>
+			 <form action="submit_form.php" method="POST">
+					 <label for="name">Name:</label>
+					 <input type="text" id="name" name="name" required>
+
+					 <label for="email">Email:</label>
+					 <input type="email" id="email" name="email" required>
+
+					 <label for="message">Message:</label>
+					 <textarea id="message" name="message" rows="4" required></textarea>
+
+					 <button type="submit">Send</button>
+			 </form>
+	 </section>
+
+	     <script>
+
+	         function handleFormSubmit(event, method) {
+	             event.preventDefault();
+
+
+	             alert('Thank you for your feedback!');
+
+
+	             window.location.href = 'index.html';
+	         }
+
+
+	         document.getElementById('getForm').addEventListener('submit', function(event) {
+	             handleFormSubmit(event, 'GET');
+	         });
+
+	         document.getElementById('postForm').addEventListener('submit', function(event) {
+	             handleFormSubmit(event, 'POST');
+	         });
+	     </script>
+</body>
+		<footer>
+        <div class="footer-content">
+            <p>&copy; TEAM 10. Exercise No. 4</p>
+						<p>PAMANTASAN NG LUNGSOD NG MUNTINLUPA<p>
+
+          
+        </div>
+    </footer>
+</html>
